@@ -1,0 +1,17 @@
+# Environnement virtuel (chacun recrée le sien)
+.venv/
+venv/
+
+# Secrets — NE JAMAIS COMMITTER
+.env
+
+# Base SQLite locale (recréée au lancement)
+instance/
+*.db
+
+# Python
+__pycache__/
+*.pyc
+
+# PyCharm
+.idea/
